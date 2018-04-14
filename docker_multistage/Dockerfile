@@ -1,4 +1,4 @@
-FROM registry/myproject/elixir:1.5.0-rhel7 as builder
+FROM docker-registry-default.10.0.75.2.nip.io/myproject/elixir:1.5.0-rhel7 as builder
 
 # RUN mix local.hex --force && \
 #     mix local.rebar --force && \
