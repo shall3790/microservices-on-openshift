@@ -1,4 +1,4 @@
-FROM hlrepomgmt01:8087/hobbylobby/elixir:1.5.0-rhel7 as builder
+FROM elixir:1.5.0-rhel7 as builder
 
 # RUN mix local.hex --force && \
 #     mix local.rebar --force && \
