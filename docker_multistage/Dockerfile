@@ -15,7 +15,7 @@ RUN ls -la
 RUN mix deps.get
 RUN mix release --env=$MIX_ENV
 
-FROM registry.access.redhat.com/rhel7/rhel-atomic:7.4-88
+FROM hlsatellite01.hobbylobby.corp:5000/hl_rhel-docker-rhel7atomic:7.4-88
 
 # RUN apt-get -qq install openssl libssl1.0.0 libssl-dev
 WORKDIR /app
